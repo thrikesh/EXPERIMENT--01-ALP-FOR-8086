@@ -1,7 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+# EXPERIMENT 01 ALP FOR 8086
+### Name : THRIKESWAR p
+### Roll no : 212222230162 
+### Date of experiment : 4-03-2025
 
 
 
@@ -78,24 +78,102 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
+MOV AX,5123H
+MOV BX,1142H
+ADD AX,BX
+
+ret
+```
 
 
 ## Output  
+![Screenshot 2025-03-04 102937](https://github.com/user-attachments/assets/3a0b1e14-dca0-489f-82c1-5a7477ecb59c)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
+```
+org 100h
+MOV BX,1200h
+MOV AX,BX
+MOV CX,120h
+MUL CX
+ret
+```
+
+## Output
+![Screenshot 2025-03-04 104241](https://github.com/user-attachments/assets/68292950-f2a3-4577-a4c3-ad3a8f00bb71)
+
 ## Multiplication alp 
+```
+ org 100h
+MOV BX,1200h
+MOV AX,BX
+MOV CX,120h
+MUL CX
+ret
+```
  ## Output  
+![Screenshot 2025-03-04 105745](https://github.com/user-attachments/assets/c1ce32a2-1465-4d82-bb34-3c0e078cadcc)
 
 
 ## Division alp 
-
+```
+org 100h
+MOV AX, 0009H   
+MOV BL, 02H     
+DIV BL    
+ret
+```
 ## Output  
+![Screenshot 2025-03-04 112027](https://github.com/user-attachments/assets/e963e84e-6b57-43d0-8dcf-18680535cbf4)
+
+## And of 8 bit numbers ALP
+```assembly
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![ANDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/137f8c67-17d9-4cc2-8437-349d50e0a404)
+
+## OR of 8 bit numbers ALP
+```assembly
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![OR EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d9fce991-bce0-4c58-a77c-2de3216f302d)
+
+## NOT of 8 bit number ALP
+```assembly
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![NOT EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/a7efe90e-2100-4df5-8298-3516af3b7f65)
+
+## XOR of 8 bit number ALP
+```assembly
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+![XOREX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/838fcf0e-3db2-4d6c-a9b6-0607b839726d)
 
 
 ## Result :
+
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
