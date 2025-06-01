@@ -1,5 +1,5 @@
 # EXPERIMENT 01 ALP FOR 8086
-### Name : THRIKESWAR p
+### Name : THRIKESWAR P
 ### Roll no : 212222230162 
 ### Date of experiment : 4-03-2025
 
